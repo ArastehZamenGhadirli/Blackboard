@@ -37,4 +37,6 @@ class Text(models.Model):
     font_color = models.CharField(max_length=20 , choices=colors , default="black")
     black_board = models.ForeignKey(to=Blackboard , related_name="Text_Blackboard" , on_delete=models.CASCADE)
     
-    
+
+
+
